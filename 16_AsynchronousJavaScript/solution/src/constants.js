@@ -1,0 +1,1 @@
+export const resultsURL = `http://localhost:3005/results`;
