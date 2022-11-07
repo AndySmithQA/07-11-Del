@@ -85,22 +85,48 @@
 
 // Type Conversion
 //eval
-console.log(eval("6*3+5"))
+// console.log(eval("6*3+5"))
 
-//explicity change string into an INT
-let mystr = "5.9";
-let myNum = parseInt(mystr)
-console.log(myNum, typeof myNum)
+// //explicity change string into an INT
+// let mystr = "5.9";
+// let myNum = parseInt(mystr)
+// console.log(myNum, typeof myNum)
 
-//parseFloat 
-let myFloat = parseFloat(mystr);
-console.log(myFloat, typeof myFloat)
+// //parseFloat 
+// let myFloat = parseFloat(mystr);
+// console.log(myFloat, typeof myFloat)
 
-let s = "5"
-let i = 5
-let total = i + parseInt(s)
+// let s = "5"
+// let i = 5
+// let total = i + parseInt(s)
 
-console.log(total)
+// console.log(total)
 
-console.log(isNaN(s))
-console.log(!isNaN(i))
+// console.log(isNaN(s))
+// console.log(!isNaN(i))
+
+// console.log(5+5);
+// console.log(5*10);
+// console.log(10 % 3);
+// console.log(5 + 10 / 2 * 5 - 10);
+// console.log((6 + 10) / 2 * 5 - 10);
+
+// let x = 0
+// console.log(x = x+1)
+// console.log(x += 1)
+// console.log(x++)
+// console.log(++x)
+
+// console.log( 5> 3)
+// console.log(3 != 3)
+// console.log(3 <= 2 && 5 > 2)
+// console.log(! 5> 3)
+
+console.log(Math.floor(9/2))
+
+let str = "Ho ";
+//str *= 3
+console.log(str)
+let times = 3;
+
+console.log(str.repeat(times))
