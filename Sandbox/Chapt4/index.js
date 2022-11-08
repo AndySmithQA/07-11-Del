@@ -70,38 +70,52 @@
 //Iteration - Loops 
 //WHILE loop - Conditional Loops
 
-let names;
-while (names != "bob"){
-    names = prompt("Enter your name")
-    continue    
+// let names;
+// while (names != "bob"){
+//     names = prompt("Enter your name")
+//     continue    
+// }
+// document.write("Loop Complete")
+// //break
+// //continue
+
+// let age = 8;
+
+// do {
+//     console.log(age);
+//     age++;
+// } while (age < 7);
+
+// //For loops - Unconditional
+
+// for (let i = 1; i < 11; i++){
+//     if (i % 2 == 0) {
+//         console.log(`${i} is even`)
+//     } else {
+//         console.log(`${i} is odd`) 
+//     }
+// }
+
+// let people = ["Bob", "Dave", "Maureen"];
+
+// people.forEach(person => {
+//     console.log(person)
+// });
+
+// people.forEach((person, index) => {
+//     console.log(index +1, person)
+// });
+
+
+// for (let i = 1; i < 10; i++){
+//     console.log(i)
+// }
+
+let x = 2;
+let loopCounter = 0;
+while (loopCounter < 10){
+    console.log(`${x} squared is ${x*x}`);
+    x++
+    document.write(`<p> ${loopCounter}</p>`);
+    loopCounter++;
 }
-document.write("Loop Complete")
-//break
-//continue
-
-let age = 8;
-
-do {
-    console.log(age);
-    age++;
-} while (age < 7);
-
-//For loops - Unconditional
-
-for (let i = 1; i < 11; i++){
-    if (i % 2 == 0) {
-        console.log(`${i} is even`)
-    } else {
-        console.log(`${i} is odd`) 
-    }
-}
-
-let people = ["Bob", "Dave", "Maureen"];
-
-people.forEach(person => {
-    console.log(person)
-});
-
-people.forEach((person, index) => {
-    console.log(index +1, person)
-});
