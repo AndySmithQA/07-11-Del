@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      
+      .error {
+        border-color: red;
+      }
     </style>
 </head>
 <body>
     <h1>Forms and Validation</h1>
 
-    <form>
+    <form novalidate>
         <div class="formInput">
             <label for="name">Name:</label>
-            <input type="text" name="name" required>
+            <input type="text" name="name" onblur="check(this)">
         </div>
 
         <div class="formInput">
             <label for="email">Email:</label>
-            <input type="email" name="email">
+            <input type="email" name="email" onblur="check(this)">
         </div>
 
         <div class="formInput">
@@ -31,8 +33,9 @@
                <option value="m">Male</option>
             </select>
         </div>
-        
+
         <input type="submit" value="submit">
+        <input type="reset" value="Clear">
     </form>
 
 
