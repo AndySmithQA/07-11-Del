@@ -1,0 +1,12 @@
+{
+    "results" : [
+        {
+            "id": 1,
+            "home": "React Rangers",
+            "away": "Angular Atheletic",
+            "homeScore" : 2,
+            "awayScore" :0
+        }
+    ]
+
+}
